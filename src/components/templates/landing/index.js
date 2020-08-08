@@ -1,0 +1,1 @@
+export { default as tLanding } from './landing.vue'

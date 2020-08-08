@@ -1,0 +1,1 @@
+export { default as aText } from './text.vue'

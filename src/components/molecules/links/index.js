@@ -1,0 +1,1 @@
+export { default as mLinks } from './links.vue'

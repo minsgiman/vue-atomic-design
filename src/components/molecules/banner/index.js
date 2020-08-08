@@ -1,0 +1,1 @@
+export { default as mBanner } from './banner.vue'
