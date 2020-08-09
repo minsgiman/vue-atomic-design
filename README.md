@@ -10,6 +10,11 @@ npm install
 npm run serve
 ```
 
+### Run Storybook
+```html
+npm run storybook
+```
+
 ### Compiles and minifies for production
 ```
 npm run build
