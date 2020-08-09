@@ -1,0 +1,1 @@
+export { default as tHome } from './home.vue'

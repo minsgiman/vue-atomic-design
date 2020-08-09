@@ -4,7 +4,7 @@
         <div>
             <m-banner></m-banner>
             <div>
-                <o-grid :cards="cards"></o-grid>
+                <o-card-grid :cards="cards"></o-card-grid>
             </div>
         </div>
         <o-footer :fLinks="fLinks" :sLinks="sLinks"></o-footer>
@@ -15,14 +15,14 @@
     import { oHeader } from '../../organisms/header';
     import { oFooter } from '../../organisms/footer';
     import { mBanner } from '../../molecules/banner';
-    import { oGrid } from '../../organisms/grid';
+    import { oCardGrid } from '../../organisms/card-grid';
 
     export default {
         components: {
             mBanner,
             oHeader,
             oFooter,
-            oGrid
+            oCardGrid
         },
         props: {
             links: {

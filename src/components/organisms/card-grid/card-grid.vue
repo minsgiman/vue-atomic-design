@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="card-grid">
         <div v-for="card in cards" :key="card.id">
             <m-card :title="card.title" :text="card.text"></m-card>
         </div>

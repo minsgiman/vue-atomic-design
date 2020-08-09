@@ -1,5 +1,5 @@
 <template>
-    <t-landing
+    <t-home
             :links="links"
             :cards="cards"
             :fLinks="fLinks"
@@ -8,11 +8,11 @@
 </template>
 
 <script>
-    import { tLanding } from '../../templates/landing';
+    import { tHome } from '../../templates/home';
 
     export default {
         components: {
-            tLanding
+            tHome
         },
         data: () => {
             return {

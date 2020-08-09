@@ -1,1 +1,0 @@
-export { default as oGrid } from './grid.vue'
